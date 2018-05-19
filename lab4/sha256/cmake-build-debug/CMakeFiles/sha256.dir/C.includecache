@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/crypt/lab4/sha256/sha256.c
+stdlib.h
+-
+memory.h
+-
+sha256.h
+G:/crypt/lab4/sha256/sha256.h
+
+G:/crypt/lab4/sha256/sha256.h
+stddef.h
+-
+
+G:/crypt/lab4/sha256/sha256_test.c
+stdio.h
+-
+memory.h
+-
+string.h
+-
+stdbool.h
+-
+sha256.h
+G:/crypt/lab4/sha256/sha256.h
+
